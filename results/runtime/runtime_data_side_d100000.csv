@@ -1,0 +1,7 @@
+sweep,N,D,k,maxDim,effective_max_dim,backend,stage,stage_label,dtype,seconds,rss_mb,cuda_peak_mb,repeat
+D,2500,100000,10,100,100,cpu,data_side,data-side statistic,float64,49.7115448260156,3852.78125,,0
+D,2500,100000,10,100,100,cpu,data_side,data-side statistic,float64,51.44523335000849,3751.13671875,,1
+D,2500,100000,10,100,100,cpu,data_side,data-side statistic,float64,51.15152871600003,3761.34375,,2
+D,2500,100000,10,100,100,gpu,data_side,data-side statistic,float64,33.54981196200242,2886.9296875,3824.14453125,0
+D,2500,100000,10,100,100,gpu,data_side,data-side statistic,float64,33.56850160899921,2887.02734375,3824.14453125,1
+D,2500,100000,10,100,100,gpu,data_side,data-side statistic,float64,33.69213297398528,2887.2265625,3824.14453125,2

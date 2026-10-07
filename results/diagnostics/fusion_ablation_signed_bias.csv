@@ -1,0 +1,9 @@
+source,suite,noise_sigma,scale_sigma,intervention,method,n_datasets,n_reps,signed_pe_mean,signed_pe_sd,n_cells,cells_over,cells_under
+clean_confirmatory,clean,0.0,0.0,raw,mind_distance_only,14,5,-1.5789910526032978,14.951465473123948,70,20,44
+clean_confirmatory,clean,0.0,0.0,raw,gride_distance_only,14,5,-1.8470284811950795,18.033634728149188,70,21,41
+clean_confirmatory,clean,0.0,0.0,raw,standard_angle_only,14,5,10.712681103548187,24.70333618381061,70,51,9
+clean_confirmatory,clean,0.0,0.0,raw,profiled_angle_only,14,5,6.225507441381245,19.807408886395017,70,40,16
+clean_confirmatory,clean,0.0,0.0,raw,danco,14,5,0.9461358839295089,16.177855157056673,70,38,23
+clean_confirmatory,clean,0.0,0.0,raw,profiled_danco,14,5,-0.5935299034986493,16.266082352140735,70,28,36
+clean_confirmatory,clean,0.0,0.0,raw,danco_gride,14,5,-1.2043023791525478,19.885746969421113,70,39,25
+clean_confirmatory,clean,0.0,0.0,raw,profiled_danco_gride,14,5,-2.5400855637111652,19.234760559573363,70,25,39

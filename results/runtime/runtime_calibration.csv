@@ -1,0 +1,97 @@
+sweep,N,D,k,maxDim,effective_max_dim,backend,stage,stage_label,dtype,seconds,rss_mb,cuda_peak_mb,repeat
+maxDim,500,400,10,50,50,cpu,data_side,data-side statistic,float64,0.02551291900454089,622.93359375,,0
+maxDim,500,400,10,50,50,cpu,data_side,data-side statistic,float64,0.02714871897478588,622.93359375,,1
+maxDim,500,400,10,50,50,cpu,data_side,data-side statistic,float64,0.02022985101211816,622.93359375,,2
+maxDim,500,400,10,50,50,gpu,data_side,data-side statistic,float64,0.19163931600633077,978.11328125,11.63232421875,0
+maxDim,500,400,10,50,50,gpu,data_side,data-side statistic,float64,0.18767532598576508,978.07421875,11.63232421875,1
+maxDim,500,400,10,50,50,gpu,data_side,data-side statistic,float64,0.17829198902472854,977.9375,11.63232421875,2
+maxDim,500,400,10,50,50,cpu,spline_evaluate,complete spline evaluation,float64,0.03227386000799015,623.05859375,,0
+maxDim,500,400,10,50,50,cpu,spline_evaluate,complete spline evaluation,float64,0.030452059989329427,623.05859375,,1
+maxDim,500,400,10,50,50,cpu,spline_evaluate,complete spline evaluation,float64,0.023853109014453366,623.05859375,,2
+maxDim,500,400,10,50,50,gpu,spline_evaluate,complete spline evaluation,float64,0.18984695602557622,978.36328125,11.63232421875,0
+maxDim,500,400,10,50,50,gpu,spline_evaluate,complete spline evaluation,float64,0.19977397500770167,978.74609375,11.63232421875,1
+maxDim,500,400,10,50,50,gpu,spline_evaluate,complete spline evaluation,float64,0.1905815289937891,978.50390625,11.63232421875,2
+maxDim,500,400,10,50,50,cpu,full_mc_evaluate,complete cold-MC evaluation,float64,0.7699472839885857,623.05859375,,0
+maxDim,500,400,10,50,50,cpu,full_mc_evaluate,complete cold-MC evaluation,float64,0.7633733930124436,623.05859375,,1
+maxDim,500,400,10,50,50,cpu,full_mc_evaluate,complete cold-MC evaluation,float64,0.7599787900107913,623.05859375,,2
+maxDim,500,400,10,50,50,gpu,full_mc_evaluate,complete cold-MC evaluation,float64,7.981615486001829,1113.46875,11.63232421875,0
+maxDim,500,400,10,50,50,gpu,full_mc_evaluate,complete cold-MC evaluation,float64,7.941044776001945,1113.20703125,11.63232421875,1
+maxDim,500,400,10,50,50,gpu,full_mc_evaluate,complete cold-MC evaluation,float64,8.040926055022283,1113.53515625,11.63232421875,2
+maxDim,500,400,10,50,50,cpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.02755888001411222,623.05859375,,0
+maxDim,500,400,10,50,50,cpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.028035221010213718,623.05859375,,1
+maxDim,500,400,10,50,50,cpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.027964826993411407,623.05859375,,2
+maxDim,500,400,10,50,50,gpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.41963262000354007,1113.63671875,11.63232421875,0
+maxDim,500,400,10,50,50,gpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.4155800580047071,1113.54296875,11.63232421875,1
+maxDim,500,400,10,50,50,gpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.40951409901026636,1113.16015625,11.63232421875,2
+maxDim,500,400,10,100,100,cpu,data_side,data-side statistic,float64,0.026538802980212495,623.05859375,,0
+maxDim,500,400,10,100,100,cpu,data_side,data-side statistic,float64,0.027070207986980677,623.05859375,,1
+maxDim,500,400,10,100,100,cpu,data_side,data-side statistic,float64,0.021123180980794132,623.05859375,,2
+maxDim,500,400,10,100,100,gpu,data_side,data-side statistic,float64,0.18020477498066612,978.234375,11.63232421875,0
+maxDim,500,400,10,100,100,gpu,data_side,data-side statistic,float64,0.1827427280077245,978.375,11.63232421875,1
+maxDim,500,400,10,100,100,gpu,data_side,data-side statistic,float64,0.18617958200047724,978.45703125,11.63232421875,2
+maxDim,500,400,10,100,100,cpu,spline_evaluate,complete spline evaluation,float64,0.03300300901173614,623.05859375,,0
+maxDim,500,400,10,100,100,cpu,spline_evaluate,complete spline evaluation,float64,0.032436411012895405,623.05859375,,1
+maxDim,500,400,10,100,100,cpu,spline_evaluate,complete spline evaluation,float64,0.03176800798974,623.05859375,,2
+maxDim,500,400,10,100,100,gpu,spline_evaluate,complete spline evaluation,float64,0.1954350220039487,978.87109375,11.63232421875,0
+maxDim,500,400,10,100,100,gpu,spline_evaluate,complete spline evaluation,float64,0.19546578399604186,978.7109375,11.63232421875,1
+maxDim,500,400,10,100,100,gpu,spline_evaluate,complete spline evaluation,float64,0.19324417400639504,978.35546875,11.63232421875,2
+maxDim,500,400,10,100,100,cpu,full_mc_evaluate,complete cold-MC evaluation,float64,1.598004317987943,623.05859375,,0
+maxDim,500,400,10,100,100,cpu,full_mc_evaluate,complete cold-MC evaluation,float64,1.4088577689835802,623.05859375,,1
+maxDim,500,400,10,100,100,cpu,full_mc_evaluate,complete cold-MC evaluation,float64,1.4492072660068516,623.05859375,,2
+maxDim,500,400,10,100,100,gpu,full_mc_evaluate,complete cold-MC evaluation,float64,8.64115588000277,1115.40625,11.63232421875,0
+maxDim,500,400,10,100,100,gpu,full_mc_evaluate,complete cold-MC evaluation,float64,8.728689075011062,1115.9140625,11.63232421875,1
+maxDim,500,400,10,100,100,gpu,full_mc_evaluate,complete cold-MC evaluation,float64,8.645698923995951,1115.28125,11.63232421875,2
+maxDim,500,400,10,100,100,cpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.032551592972595245,623.05859375,,0
+maxDim,500,400,10,100,100,cpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.03579470800468698,623.05859375,,1
+maxDim,500,400,10,100,100,cpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.03224845099612139,623.05859375,,2
+maxDim,500,400,10,100,100,gpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.42520908199367113,1115.73046875,11.63232421875,0
+maxDim,500,400,10,100,100,gpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.42760929197538644,1116.140625,11.63232421875,1
+maxDim,500,400,10,100,100,gpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.4403856520075351,1115.78125,11.63232421875,2
+maxDim,500,400,10,200,200,cpu,data_side,data-side statistic,float64,0.025142456986941397,623.05859375,,0
+maxDim,500,400,10,200,200,cpu,data_side,data-side statistic,float64,0.02525682299165055,623.05859375,,1
+maxDim,500,400,10,200,200,cpu,data_side,data-side statistic,float64,0.020174852979835123,623.05859375,,2
+maxDim,500,400,10,200,200,gpu,data_side,data-side statistic,float64,0.18837790601537563,978.12109375,11.63232421875,0
+maxDim,500,400,10,200,200,gpu,data_side,data-side statistic,float64,0.19263995901565067,978.33203125,11.63232421875,1
+maxDim,500,400,10,200,200,gpu,data_side,data-side statistic,float64,0.1855712590040639,978.59765625,11.63232421875,2
+maxDim,500,400,10,200,200,cpu,spline_evaluate,complete spline evaluation,float64,0.040548378019593656,623.05859375,,0
+maxDim,500,400,10,200,200,cpu,spline_evaluate,complete spline evaluation,float64,0.040708774991799146,623.05859375,,1
+maxDim,500,400,10,200,200,cpu,spline_evaluate,complete spline evaluation,float64,0.03360916601377539,623.05859375,,2
+maxDim,500,400,10,200,200,gpu,spline_evaluate,complete spline evaluation,float64,0.2040110260131769,978.24609375,11.63232421875,0
+maxDim,500,400,10,200,200,gpu,spline_evaluate,complete spline evaluation,float64,0.20697702301549725,978.67578125,11.63232421875,1
+maxDim,500,400,10,200,200,gpu,spline_evaluate,complete spline evaluation,float64,0.20348822700907476,978.5,11.63232421875,2
+maxDim,500,400,10,200,200,cpu,full_mc_evaluate,complete cold-MC evaluation,float64,3.173236781003652,623.05859375,,0
+maxDim,500,400,10,200,200,cpu,full_mc_evaluate,complete cold-MC evaluation,float64,3.115876235999167,623.05859375,,1
+maxDim,500,400,10,200,200,cpu,full_mc_evaluate,complete cold-MC evaluation,float64,3.1755337059730664,623.05859375,,2
+maxDim,500,400,10,200,200,gpu,full_mc_evaluate,complete cold-MC evaluation,float64,10.521723098005168,1119.68359375,11.63232421875,0
+maxDim,500,400,10,200,200,gpu,full_mc_evaluate,complete cold-MC evaluation,float64,10.442793213995174,1120.25,11.63232421875,1
+maxDim,500,400,10,200,200,gpu,full_mc_evaluate,complete cold-MC evaluation,float64,10.490744148992235,1119.7109375,11.63232421875,2
+maxDim,500,400,10,200,200,cpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.035283958015497774,623.18359375,,0
+maxDim,500,400,10,200,200,cpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.03601037900079973,623.18359375,,1
+maxDim,500,400,10,200,200,cpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.036775655986275524,623.18359375,,2
+maxDim,500,400,10,200,200,gpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.44940591100021265,1120.18359375,11.63232421875,0
+maxDim,500,400,10,200,200,gpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.4448427309980616,1120.73828125,11.63232421875,1
+maxDim,500,400,10,200,200,gpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.43220125598600134,1119.65234375,11.63232421875,2
+maxDim,500,400,10,400,400,cpu,data_side,data-side statistic,float64,0.026444335002452135,623.18359375,,0
+maxDim,500,400,10,400,400,cpu,data_side,data-side statistic,float64,0.026063158991746604,623.18359375,,1
+maxDim,500,400,10,400,400,cpu,data_side,data-side statistic,float64,0.020833154005231336,623.18359375,,2
+maxDim,500,400,10,400,400,gpu,data_side,data-side statistic,float64,0.19643505397834815,978.046875,11.63232421875,0
+maxDim,500,400,10,400,400,gpu,data_side,data-side statistic,float64,0.19237225901451893,978.24609375,11.63232421875,1
+maxDim,500,400,10,400,400,gpu,data_side,data-side statistic,float64,0.18869562898180448,978.16796875,11.63232421875,2
+maxDim,500,400,10,400,400,cpu,spline_evaluate,complete spline evaluation,float64,0.05315706197870895,623.18359375,,0
+maxDim,500,400,10,400,400,cpu,spline_evaluate,complete spline evaluation,float64,0.05284206199576147,623.18359375,,1
+maxDim,500,400,10,400,400,cpu,spline_evaluate,complete spline evaluation,float64,0.050027155986754224,623.18359375,,2
+maxDim,500,400,10,400,400,gpu,spline_evaluate,complete spline evaluation,float64,0.2247749669768382,978.51953125,11.63232421875,0
+maxDim,500,400,10,400,400,gpu,spline_evaluate,complete spline evaluation,float64,0.22670600400306284,978.37109375,11.63232421875,1
+maxDim,500,400,10,400,400,gpu,spline_evaluate,complete spline evaluation,float64,0.21739105298183858,978.48046875,11.63232421875,2
+maxDim,500,400,10,400,400,cpu,full_mc_evaluate,complete cold-MC evaluation,float64,8.155551928008208,623.18359375,,0
+maxDim,500,400,10,400,400,cpu,full_mc_evaluate,complete cold-MC evaluation,float64,8.06521508397418,623.18359375,,1
+maxDim,500,400,10,400,400,cpu,full_mc_evaluate,complete cold-MC evaluation,float64,8.142328139976598,623.18359375,,2
+maxDim,500,400,10,400,400,gpu,full_mc_evaluate,complete cold-MC evaluation,float64,15.444323981006164,1128.76171875,11.63232421875,0
+maxDim,500,400,10,400,400,gpu,full_mc_evaluate,complete cold-MC evaluation,float64,15.378088839992415,1129.54296875,11.63232421875,1
+maxDim,500,400,10,400,400,gpu,full_mc_evaluate,complete cold-MC evaluation,float64,15.428421355987666,1128.58203125,11.63232421875,2
+maxDim,500,400,10,400,400,cpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.04765793398837559,623.18359375,,0
+maxDim,500,400,10,400,400,cpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.04774528299458325,623.18359375,,1
+maxDim,500,400,10,400,400,cpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.04628593198140152,623.18359375,,2
+maxDim,500,400,10,400,400,gpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.43581106199417263,1128.640625,11.63232421875,0
+maxDim,500,400,10,400,400,gpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.46495069400407374,1128.890625,11.63232421875,1
+maxDim,500,400,10,400,400,gpu,cached_mc_evaluate,complete cached-MC evaluation,float64,0.4550225679995492,1129.98828125,11.63232421875,2

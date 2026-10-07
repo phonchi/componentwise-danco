@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived release and the manuscript below."
+type: software
+title: 'Code, reference data, and processed results for "Interpretable intrinsic dimension estimation through componentwise calibration of distance and angle"'
+version: 1.0.0
+license: MIT
+doi: 10.5281/zenodo.22970216
+repository-code: "https://github.com/phonchi/componentwise-danco"
+date-released: 2026-10-07
+authors:
+  - family-names: Huang
+    given-names: Chih-Hsuan
+    affiliation: "Department of Applied Mathematics, National Sun Yat-sen University"
+  - family-names: Chen
+    given-names: Chih-Wei
+    affiliation: "Department of Applied Mathematics, National Sun Yat-sen University"
+  - family-names: Chung
+    given-names: Szu-Chi
+    affiliation: "Department of Applied Mathematics, National Sun Yat-sen University"
+    email: phonchi@math.nsysu.edu.tw
+keywords:
+  - intrinsic dimension
+  - DANCo
+  - Gride
+  - angular concentration
+  - Kullback-Leibler divergence
+preferred-citation:
+  type: article
+  title: "Interpretable intrinsic dimension estimation through componentwise calibration of distance and angle"
+  authors:
+    - family-names: Huang
+      given-names: Chih-Hsuan
+    - family-names: Chen
+      given-names: Chih-Wei
+    - family-names: Chung
+      given-names: Szu-Chi
+  journal: "Pattern Recognition"
+  year: 2026
+  status: submitted
+  notes: "Manuscript under submission; preprint arXiv:2609.37114."
+  identifiers:
+    - type: url
+      value: "https://arxiv.org/abs/2609.37114"

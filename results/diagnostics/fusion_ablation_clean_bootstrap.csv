@@ -1,0 +1,11 @@
+suite,noise_sigma,scale_sigma,intervention,reference,comparator,n_pairs,n_datasets,resampling_unit,n_resampling_units,delta_mpe,ci_low,ci_high,ci_excludes_zero,supports_joint_improvement,probability_reference_better,bootstrap_reps,bootstrap_seed
+clean,0.0,0.0,raw,profiled_danco,danco,70,14,dataset,14,1.0705553136606452,0.007476158832075409,2.165390833224787,True,False,0.0233,10000,20260816
+clean,0.0,0.0,raw,profiled_danco_gride,danco_gride,70,14,dataset,14,0.0968450938505571,-0.7844888756790164,0.9460828851229225,False,False,0.4002,10000,20260816
+clean,0.0,0.0,raw,danco,mind_distance_only,70,14,dataset,14,-1.4965508082704042,-3.8866897672735266,1.2031264036426617,False,False,0.8694,10000,20260816
+clean,0.0,0.0,raw,danco,standard_angle_only,70,14,dataset,14,-7.281006415580795,-14.657168165081771,-0.8387246218477693,True,True,0.9896,10000,20260816
+clean,0.0,0.0,raw,profiled_danco,mind_distance_only,70,14,dataset,14,-0.4259954946097587,-2.7371373403634895,1.7974603582634907,False,False,0.6386,10000,20260816
+clean,0.0,0.0,raw,profiled_danco,profiled_angle_only,70,14,dataset,14,-2.4731093321750888,-8.214197984980833,1.9272119525164768,False,False,0.8337,10000,20260816
+clean,0.0,0.0,raw,danco_gride,gride_distance_only,70,14,dataset,14,-0.2822864221548075,-2.4858569767238623,1.8332143290784428,False,False,0.5922,10000,20260816
+clean,0.0,0.0,raw,danco_gride,standard_angle_only,70,14,dataset,14,-4.3209774518953425,-12.510254118749854,3.8410041225553035,False,False,0.8414,10000,20260816
+clean,0.0,0.0,raw,profiled_danco_gride,gride_distance_only,70,14,dataset,14,-0.18544132830425042,-2.088334515160046,1.5506307451200856,False,False,0.5732,10000,20260816
+clean,0.0,0.0,raw,profiled_danco_gride,profiled_angle_only,70,14,dataset,14,-0.48679058829972427,-7.0990217990767945,5.976651484730184,False,False,0.5522,10000,20260816

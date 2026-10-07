@@ -1,0 +1,2 @@
+n_rows,n_valid_angular_rows,n_sample_sizes,n_seeds,max_dim,valid_candidate_min,valid_candidate_max,nu_min,nu_max,sample_sizes,seeds,k,calibration_seeding
+5000,4875,5,5,200,6,200,1.1422008541630342,1.49498779044809,"547,648,1010,1028,5000","43,44,45,46,47",10,stream

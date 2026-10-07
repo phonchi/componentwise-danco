@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "danco"
+version = "1.0.0"
+description = "Componentwise distance-angle calibration for intrinsic dimension (MiND/Gride, Full/Profiled)"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "MIT" }
+authors = [
+    { name = "Chih-Hsuan Huang" },
+    { name = "Chih-Wei Chen" },
+    { name = "Szu-Chi Chung", email = "phonchi@math.nsysu.edu.tw" },
+]
+keywords = ["intrinsic dimension", "manifold learning", "DANCo", "Gride"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy<2",
+    "scipy",
+    "scikit-learn",
+    "scikit-dimension>=0.3.7,<0.4",
+    "numba",
+    "tqdm",
+    "pandas",
+    "matplotlib",
+]
+
+[project.urls]
+Repository = "https://github.com/phonchi/componentwise-danco"
+Preprint = "https://arxiv.org/abs/2609.37114"
+Archive = "https://doi.org/10.5281/zenodo.22970216"
+
+[project.optional-dependencies]
+# torchvision downloads MNIST/CIFAR for run_images.py and run_class_survey.py;
+# both run on CPU. The gpu extra is the same pair, kept as an alias for a
+# CUDA-enabled installation of torch.
+data = ["torch", "torchvision"]
+gpu = ["torch", "torchvision"]
+dev = ["pytest", "mpmath"]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"danco.assets" = ["*.pkl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

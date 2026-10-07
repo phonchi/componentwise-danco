@@ -1,0 +1,160 @@
+{
+  "archs": [
+    "alexnet",
+    "vgg16",
+    "resnet18",
+    "resnet34"
+  ],
+  "categories": [
+    "n02086240",
+    "n01882714",
+    "n02087394",
+    "n02094433",
+    "n02100583",
+    "n02100735",
+    "n02279972"
+  ],
+  "subset_rep": 2,
+  "nsamples": 500,
+  "maxdim": 400,
+  "k": 10,
+  "estimator": "gride",
+  "version": "DANCo_gride_fast",
+  "backend": "gpu",
+  "device": "cuda",
+  "backend_options": {
+    "dup_threshold": null
+  },
+  "duplicate_policy": "stable exact-row deduplication shared by all estimators",
+  "method_ids": {
+    "full": "gride_full_spline_integer_gpu",
+    "profiled": "gride_profiled_spline_integer_gpu",
+    "twonn": "twonn_facco_skdim_0.3.7_discard0.1_exactdedup",
+    "mle": "mle_levina_bickel_skdim_0.3.7_k10_exactdedup"
+  },
+  "software": {
+    "numpy": "1.26.4",
+    "scikit-learn": "1.9.0",
+    "scikit-dimension": "0.3.7",
+    "torch": "2.13.0+cu126",
+    "torchvision": "0.28.0+cu126",
+    "cuda_runtime": "12.6"
+  },
+  "pretrained": true,
+  "completed": [
+    [
+      "alexnet",
+      "n01882714"
+    ],
+    [
+      "alexnet",
+      "n02086240"
+    ],
+    [
+      "alexnet",
+      "n02087394"
+    ],
+    [
+      "alexnet",
+      "n02094433"
+    ],
+    [
+      "alexnet",
+      "n02100583"
+    ],
+    [
+      "alexnet",
+      "n02100735"
+    ],
+    [
+      "alexnet",
+      "n02279972"
+    ],
+    [
+      "resnet18",
+      "n01882714"
+    ],
+    [
+      "resnet18",
+      "n02086240"
+    ],
+    [
+      "resnet18",
+      "n02087394"
+    ],
+    [
+      "resnet18",
+      "n02094433"
+    ],
+    [
+      "resnet18",
+      "n02100583"
+    ],
+    [
+      "resnet18",
+      "n02100735"
+    ],
+    [
+      "resnet18",
+      "n02279972"
+    ],
+    [
+      "resnet34",
+      "n01882714"
+    ],
+    [
+      "resnet34",
+      "n02086240"
+    ],
+    [
+      "resnet34",
+      "n02087394"
+    ],
+    [
+      "resnet34",
+      "n02094433"
+    ],
+    [
+      "resnet34",
+      "n02100583"
+    ],
+    [
+      "resnet34",
+      "n02100735"
+    ],
+    [
+      "resnet34",
+      "n02279972"
+    ],
+    [
+      "vgg16",
+      "n01882714"
+    ],
+    [
+      "vgg16",
+      "n02086240"
+    ],
+    [
+      "vgg16",
+      "n02087394"
+    ],
+    [
+      "vgg16",
+      "n02094433"
+    ],
+    [
+      "vgg16",
+      "n02100583"
+    ],
+    [
+      "vgg16",
+      "n02100735"
+    ],
+    [
+      "vgg16",
+      "n02279972"
+    ]
+  ],
+  "failures": [],
+  "wall_s": 1396.7258480580058
+}
